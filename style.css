@@ -1,0 +1,70 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.clock-container {
+    background: linear-gradient(45deg, #1870ed 0, #f18f88 100%);
+    height: 100vh;
+    max-height: 100%;
+    font-size: 6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#clockTitle {
+    padding: 2vh;
+    max-height: 15vh;
+    font-size: 4vw;
+}
+
+#eventName {
+    max-height: 15vh;
+    animation: color-eventName 2s infinite linear alternate;
+}
+
+#countDownBlock {
+    background-color: #333333;
+    color: #e754ac;
+    font-size: 8vw;
+    height: 50vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.clock-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.countDownTimer {
+    padding: 0;
+    margin: 0;
+}
+
+#clock-label {
+    font-size: 2vw;
+}
+
+#targetDate {
+    height: 15vh;
+    padding-top: 5vh;
+}
+
+@keyframes color-eventName {
+    0% {
+        color: #11e763;
+    }
+    50% {
+        color: #e1a013;
+    } 
+    100% {
+        color: #b1e114
+    } 
+}
