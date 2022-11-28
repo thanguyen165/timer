@@ -68,3 +68,29 @@ html {
         color: #b1e114
     } 
 }
+
+@media (max-width: 600px) {
+    #clockTitle {
+        font-size: 8vw;
+    }
+    
+    #eventName {
+        font-size: 12vw;
+    }
+    
+    #countDownBlock {
+        width: 90vw;
+    }
+    
+    .countDownTimer {
+        font-size: 17vw;
+    }
+    
+    #clock-label {
+        font-size: 5vw;
+    }
+    
+    #targetDate {
+        font-size: 10vw;
+    }
+}
